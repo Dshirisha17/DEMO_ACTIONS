@@ -76,4 +76,7 @@ public class TestTest {
         }
     }
 }
+galasactl runs submit local --log - `
+>>   --obr mvn:dev.galasa.mainframe.jclsubmit/dev.galasa.mainframe.jclsubmit.obr/0.0.1-SNAPSHOT/obr `
+>>   --class dev.galasa.mainframe.jclsubmit.test/dev.galasa.mainframe.jclsubmit.test.TestTest
 
